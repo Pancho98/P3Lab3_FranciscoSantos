@@ -49,7 +49,21 @@ int main(){
 				   }
 				   break;
 			case 3:{
-
+					   /*string año,mes,dia,date;
+					   cout<<"Ingrese la fecha en forma de YYYYMMDD: "<<endl;
+					   cin>>date;
+					   for(int i=0;i<date.lenght();i++){
+						   if(i>=0 && i<=3){
+							   año+=date[1];
+						   }
+						   if(i>=4 && i<=5){
+							   mes+=date[i];
+						   }
+						   if(i>=6 && i<=7){
+							   dia+=date[i];
+						   }
+					   }
+					   Tercero(año, mes, dia);*/
 				   }
 				   break;
 		}
@@ -117,7 +131,64 @@ void Segundo(string cadena){
 
 //
 void Tercero(){
+/*	int m_mes;
+	int mes1, dia1, año1, fecha;
+	año1=atoi(año.c_str());
+	mes1=atoi(mes.c_str());
+	fecha=atoi(dia.c_str());
+	if(mes=="01"){
+		cout<<"Enero,";
+		m_mes=0;
+	}
+	if(mes=="02"){
+		 cout<<"Febrero";
+		 m_mes=3;
+	}
+	if(mes=="03"){
+		 cout<<"Marzo";
+		 m_mes=3;
+	}
+	if(mes=="04"){
+		cout<<"Abril";
+		m_mes=6;
+	}
+	if(mes=="05"){
+		cout<<"Mayo";
+		m_mes=1;
+	}
+	if(mes=="06"){
+		cout<<"Junio";
+		m_mes=4;
+	}
+	if(mes=="07"){
+		cout<<"Julio";
+		m_mes=6;
+	}
+	if(mes=="08"){
+	    cout<<"Agosto";
+		m_mes=2;
+	}
+	if(mes=="09"){
+		cout<<"Septiembre";
+		m_mes=5;
+	}
+	if(mes=="10"){
+		cout<<"Octubre";
+		m_mes=0;
+	}
+	if(mes=="11"){
+		cout<<"Noviembre";
+		m_mes=3;
+	}
+	if(mes=="12"){
+		cout<<"Diciembre";
+		m_mes=5;
+	}
 
+	dia1=  ((año1-1)%7+ ((año1-1)/4 -(3*((año1-1)/100+1)/4))%7+m_mes+fecha%7)%7;
+	
+
+*/
 }
 
 //
